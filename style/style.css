@@ -1,0 +1,322 @@
+/*titles font-family: 'Berkshire Swash', cursive;*/
+/*general styles*/
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+#main_wrapper
+{
+	width: 100%;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	flex-flow: column;
+	background-color: #B4C6C3;
+}
+
+body
+{
+	font-family: 'Coiny', cursive;
+	color: #141AD1;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+h1
+{
+	font-family: 'Berkshire Swash', cursive;
+}
+
+h2
+{
+	font-weight: normal;
+	text-align: center;
+}
+
+p
+{
+	color: #010101;
+}
+
+a
+{
+	text-decoration: none;
+	color: #FE0202;
+	padding: 10px 10px;
+	border-radius: 10px;
+}
+
+li
+{
+	color: #010101;
+	list-style-type: none;
+}
+
+a:hover
+{
+	color: #FDFEFE;
+}
+
+.image
+{
+	height: 250px;
+	width: 250px;
+	border-radius: 80px;
+}
+
+/*header*/
+header
+{
+	display: flex;
+	background-color: #645E5E;
+	height: 80px;
+	align-items: center;
+	/*position: fixed;*/
+	width: 100%;
+	border-radius: 10px;
+}
+
+/*navigat*/
+nav
+{
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+nav ul
+{
+	list-style-type: none;
+}
+
+nav li
+{
+	display: inline;
+	margin-right: 15px;
+}
+
+nav a:hover
+{
+	color: #FDFEFE;
+	background-color: #A1A67D;
+}
+
+/*Home*/
+
+#home
+{
+	height: 500px;
+	width: 100%;
+}
+
+#block
+{
+	display: flex;
+	/*flex-wrap: wrap;*/
+	text-align: center;
+	align-items: center;
+	height: 470px;
+	width: 60%;
+	padding: auto;
+	margin: auto;
+}
+
+.before_description
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: justify;
+	margin-left: 15px;
+}
+
+.link_to_the_next_section
+
+{
+	margin: 10px auto 15px auto;
+	padding: 14px 14px;
+	/*width: 270px;*/
+	border:1px black solid;
+	background-color: #D9EF4F;
+	border-radius: 15px;
+	box-shadow: 10px 5px 5px #525454;
+	text-align: center;
+	height: 50px;
+	width: 20%;
+	align-content: center;
+}
+
+.link_to_the_next_section:hover
+{
+	color: #FDFEFE;
+	background-color: #A1A67D;
+}
+
+/*competences*/
+
+#competences
+{
+	display: flex;
+	/*flex-wrap: wrap;
+	flex-direction: row;*/
+	height: 470px;
+	width: 100%;
+	margin-bottom: 15px;
+	align-items:center;
+}
+
+#languages, #webdev, #programming_languages
+{
+	margin: auto 0 auto 20px;
+	height: 50%;
+	width: 100%;
+	background-size: 100% 100%;
+	text-align: center;
+}
+#languages
+{
+	background-image: url('images/languages.jpg');
+	border-radius: 20px;
+	align-content: center;
+}
+
+#webdev
+{
+	background-image: url('images/webdev.jpg');
+	border-radius: 20px;
+	align-content: center;
+}
+
+#programming_languages
+{
+	background-image: url('images/programminglgges.jpg');
+	border-radius: 20px;
+	align-content: center;
+}
+
+
+/*portfolio*/
+#portfolio
+{
+	margin-bottom: 15px;
+	width: auto;
+	display: flex;
+	height: 470px;
+	padding-top: 30px;
+	background: url('images/car.jpg') center;
+	background-size: 100%;
+	border-radius: 10px;
+
+	/*flex-wrap: wrap;*/
+}
+
+
+#contact
+{
+	margin-top: 40px;
+	margin-bottom: 15px;
+	width: auto;
+	/*display: flex;
+	flex-direction: column;*/
+	height: 470px;
+	text-align: center;
+	margin-bottom: 50px;
+	padding-top: auto;
+}
+
+.small
+{
+	padding-left: 20px;
+	width: 40%;
+	height: 50px;
+	border-radius: 10px;
+	background-color: #373E3D;
+	margin: 30px 0 0 10px;
+	font-size: 1.3em;
+	color: #8BA698;
+}
+
+#subject
+{
+	padding-left: 20px;
+	width: 82%;
+	height: 50px;
+	border-radius: 10px;
+	background-color: #373E3D;
+	margin: 30px auto;
+	font-size: 1.3em;
+	color: #8BA698;
+}
+
+#message
+{
+	padding-top: 20px;
+	padding-left: 20px;
+	height: 220px;
+	width: 82%;
+	border-radius: 10px;
+	background-color: #373E3D;
+	font-size: 1.3em;
+	color: #8BA698;
+}
+
+#button
+{
+	height: 30px;
+	width: 20%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	border:1px black solid;
+	background-color: #D9EF4F;
+	box-shadow: 10px 5px 5px #525454;
+	font-family: 'Berkshire Swash', cursive;
+	font-weight: bold;
+}
+
+#button:hover
+{
+	color: #FDFEFE;
+	background-color: #A1A67D;
+}
+
+#footer
+{
+	position: relative;
+	bottom: 0px;
+	
+	height: 100%;
+	width: 100%;
+	margin:160px auto 0 auto;
+	text-align: center;
+	padding-top: 70px;
+	background-color: #5E6C6A;
+	border-radius: 5px;
+}
+.icone
+{
+	height: 40px;
+	width: 40px;
+	margin: 20px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
